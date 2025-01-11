@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.six-page{
+    margin-top: 256px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    column-gap: 119px;
+}
+ .box1{ 
+    
+    width: 481px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} 
+.minibox1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 32px;
+}
+.oval{
+    padding-top: 8px;
+    width: 12px;
+height: 12px;
+fill: #F07566;
+margin-right: 10px;
+} 
+.p1{
+    color: #F07566;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 200% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.minibox2{
+    width: 481px;
+    height: 128px;
+    margin-bottom: 28px;
+
+}
+.p2{
+    color: #333;
+    font-family: "Hind Siliguri";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 114.286% */
+    letter-spacing: -1px;
+}
+.minibox3{
+    width: 470px;
+    height: 69px;
+    margin-bottom: 44px;
+
+}
+.p3{
+    color: #333;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+ }
+ .minibox4{
+    display: flex;
+    flex-direction: row;
+    column-gap: 91px;
+}
+.smallbox{
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+}
+.img1{
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+background: #FFFAEA;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img2{
+    width: 56px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #EEF6FF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.h1{
+    color: #333;
+font-family: "Hind Siliguri";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 120% */
+letter-spacing: -1px;
+padding-top: 4px;
+}
+.p4{
+    color: rgba(51, 51, 51, 0.50);
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+}
+.image{
+    margin-left: 200px;
+    display: flex;
+    position: relative;
+    width: 462px;
+    height: 541px;
+    z-index: 5;
+}
+.image{
+    width: 570px;
+    height: 512px;
+    overflow: visible;
+    background-color: aqua;
+    position: relative;
+    bottom: 43px;
+}
